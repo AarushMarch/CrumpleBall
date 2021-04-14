@@ -12,11 +12,12 @@ function preload()
 function setup() {
 	createCanvas(800, 700);
 
-	paper = new Paper(100, 300, 5);
+	
 	engine = Engine.create();
 	world = engine.world;
 
 	//Create the Bodies Here.
+	paper = new Paper(100, 300, 5);
 
 
 	Engine.run(engine);
